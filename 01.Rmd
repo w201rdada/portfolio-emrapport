@@ -6,19 +6,12 @@ search engine, industrial supply, user data, website behavior
 
 ## The path to a purchase starts with a search.
 
-As an e-commerce industrial supplier, McMaster-Carr relies on a strong search engine that allows customers to find products that meet their maintenance, repair, and operations needs. Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+As an e-commerce industrial supplier, McMaster-Carr relies on a strong search engine that allows customers to find products that meet their maintenance, repair, and operations needs.
 
 ## Connecting the dots between website behavior and phone calls.
 
 To determine our biggest opportunities for improving the search engine, we should start by gathering data that will help us understand where users are struggling in the search experience. We can use data that we already have in our interaction database that collects data about user's behavior on our website (low click-through terms, low success terms, patterns in what people are searching.) A data source we hae yet to explore is audio data from customers' calls into our contact centers. As e-commerce has become more prevalent, our phone contact centers have fielded fewer calls for standard orders and more calls for scenarios in which the customer can't find what he or she is looking for. These calls are a major untapped resource for us, as they indicate poor web experiences and give us additional information we can't get from web clicks alone. What we need to do: connect calls to user accounts so that we can have labeled data on what people were looking for and what they actually bought. Combine that call data with web data to analyze.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
-
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
-
 ## Identifying small fixes and big opportunities.
 
-Consequences of this: better identify where the real opportunities are --> plan project work. Might need to prepare ourselves to find that some of our assumptions don't hold. would need to work more closely with other part of business.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Consequences of this: better identify where the real opportunities are --> plan project work. Might need to prepare ourselves to find that some of our assumptions don't hold. would need to work more closely with other part of business. 
