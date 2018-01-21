@@ -1,17 +1,21 @@
-# Less Searching, More Finding {#learning from negative search experiences}
+# The Complaints Behind The Categories in Police Misconduct Records {#identifying patterns from raw text}
 
 #### Keywords {-}
 
-search engine, industrial supply, user data, website behavior
+police misconduct, police shootings, text analysis, clustering
 
-## The path to a purchase starts with a search.
+## Data collection methods pose a challenge
 
-As an e-commerce industrial supplier, McMaster-Carr relies on a strong search engine that allows customers to find products that meet their maintenance, repair, and operations needs.
+In the past few years, police brutality has become part of the national conversation due to a large number of high profile incidents in which police officers killed unarmed, usually African-American citizens. These high profile cases represent only a few of the thousands of misconduct complaints brought to police departments every year; between March 2011 and September 2015, 28,567 misconduct complaints were brought before the Chicago Police Department, according to the [Citizens Police Data Project](https://cpdb.co/findings/). Journalists, activists, and other concerned community members want to find patterns in this data in order to work towards a safer, more just relationship between police departments and the citizens they serve.
 
-## Connecting the dots between website behavior and phone calls.
+## Using complaint text to find patterns
 
-To determine our biggest opportunities for improving the search engine, we should start by gathering data that will help us understand where users are struggling in the search experience. We can use data that we already have in our interaction database that collects data about user's behavior on our website (low click-through terms, low success terms, patterns in what people are searching.) A data source we hae yet to explore is audio data from customers' calls into our contact centers. As e-commerce has become more prevalent, our phone contact centers have fielded fewer calls for standard orders and more calls for scenarios in which the customer can't find what he or she is looking for. These calls are a major untapped resource for us, as they indicate poor web experiences and give us additional information we can't get from web clicks alone. What we need to do: connect calls to user accounts so that we can have labeled data on what people were looking for and what they actually bought. Combine that call data with web data to analyze.
+A significant challenge to finding these patterns is the way in which police misconduct complaints are categorized. Different bureaus handle different types of complaints, and whichever individual in that bureau intakes a complaint has the discretion to choose what single category a complaint is filed under, even though the narrative accounts of many complaints suggest that multiple complaint categories could apply to a single encounter. As a result, the official complaint categories have the potential to obfuscate patterns in the data by reducing multi-faceted reports to single categories.
 
-## Identifying small fixes and big opportunities.
+If journalists, activists, and other interested data scientists want to find accurate patterns in police misconduct complaints, they should return to the raw text in the complaints in order to identify more accurate complaint categories. They could do this using a number of text analysis methods. First, the data scientists should parse text complaints into individual words or phrases. Care should be taken to correct misspellings and group words by their roots; given that the text complaints will have been written by different authors in varying styles, the tokenization methods should allow for fuzzy matching between words. It should also eliminate very common words.   Once the text in each complaint has been converted to tokens, the data scientists should use a method like bag-of-words or n-grams to find a representation for each text that accounts for the frequency of tokens in the text.
 
-Consequences of this: better identify where the real opportunities are --> plan project work. Might need to prepare ourselves to find that some of our assumptions don't hold. would need to work more closely with other part of business. 
+The data scientists should then use a clustering algorithm to generate new categories for the complaints based on the text. They should experiment with different clustering algorithms and different numbers of clusters, then examine the reports in each cluster to determine if they represent cohesive and specific categories. The data scientists should tag each complaint with other relevant features, like the year of the complaint, the location, or the name of the officer. This additional data could be used alongside the text clustering categories in order to find new patterns that can allow the journalists and activists working on this issue to tell richer stories about police misconduct.
+
+## An end.
+
+The data scientists who conduct this work should be deliberate about how they present their findings, given the politically charged nature of the national conversation about police misconduct and the complicated politics around the police unions and their relationships with the city government in Chicago. Journalists and activists should consider whether to use this data to inform stories and reports that they will publish and bring to the city, or whether to publish interactive visualizations of the clusters in order to let the public explore the data on their own. Those involved should take cues from groups like the Citizens Police Data Project and other public data projects on how to make the data as accessible as possible, which includes educating the public on how to use and understand data sets and visualizations that are made public.
