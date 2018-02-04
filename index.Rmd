@@ -1,6 +1,6 @@
 ---
 title: "W201 Portfolio"
-author: "Oski Bear"
+author: "Emily Rapport"
 date: "MIDS Fall 2017"
 site: bookdown::bookdown_site
 documentclass: book
@@ -12,7 +12,7 @@ biblio-style: apalike
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
-readLines('https://www.zotero.org/api/users/4664999/items/top?start=0&limit=null&format=bibtex&itemKey=9NI269PT&key=fn6ejgYQPGjjJ7PlvbI5Auu4&v=1') %>% writeLines('references.bib')
+readLines('https://www.zotero.org/api/users/4664999/collections/KCNAVJ3B/items/top?start=0&limit=null&format=bibtex&itemKey=9NI269PT%2C5V8DWLZB&key=fn6ejgYQPGjjJ7PlvbI5Auu4&v=1') %>% writeLines('references.bib')
 ```
 
 
