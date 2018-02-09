@@ -1,17 +1,21 @@
-# My second cool idea {#slug-two}
+# Trace Your Waste {#gamify-trash}
 
 #### Keywords {-}
 
-yaba, daba, do
+environment, climate change, app,
 
-## A beginning.
+## I want to waste less - kind of
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+(Start with some statistic about how much trash the average American generates.) Many Americans are aware of this fact and want to generate less waste, but translating that sentiment into action can be hard. It's easy to want to be more environmentally conscious after reading a compelling article about pollution or watching a dramatic documentary about climate change; it's harder to actually make eco-friendly choices while grocery shopping, preparing a family meal, or planning your commute.  
 
-## A middle.
+## Enter the TrashDash app
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+TrashDash is a habit-building app that makes reducing the waste you generate more simple and fun than ever before. The TrashDash app will keep track of all of the trash you generate and motivate you to create less waste over time by tracking your progress towards goals, providing personalized tips based on your recorded waste, and allowing you to compete against your friends.
 
+The TrashDash data science team will create a data pipeline that uses a variety of data collection and machine learning techniques to provide users with a seamless TrashDash experience. Upon first signing up for the app, new TrashDashers will receive a set of compact sensors to put in their primary trash can. ** research the technology here - can the sensors measure weight and take pictures?
+- uses CNNS to identify what individual trash items are, corroborates with volume data to give you an overall profile of your waste generation   
+- you can take pics of your other trash cans if you want to get really into it
+- app will generate a report of your trash generation, show how you stack up against friends/average users, make suggestions about how you can do better
 
 ```{r experimental,echo=F,results='asis',eval=F}
 data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
@@ -20,6 +24,8 @@ data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causal
 
 Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
 
-## An end.
+## One man's trash is another man's corporate strategy
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+Millions of TrashDash users, in aggregate, can make a substantial impact on the amount of trash that the United States produces, but just imagine how much larger that impact might be if major companies got involved. TrashDash could amplify its impact - and provide a useful service to companies of all sizes - by building in ways for corporations to take part in TrashDash.
+- do it as a corporate caring benefit where companies can "match" employee waste savings by saving waste of their own, or making corresponding donations to conservation orgs
+- let companies compete against each other, and the companies that do the best get free advertising to the app's users
