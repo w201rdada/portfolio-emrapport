@@ -16,7 +16,7 @@ environment, climate change, app,
 
 ## Enter the TrashDash app
 
-TrashDash is a habit-building Internet of Things product that makes reducing the waste you generate easier and more fun than ever before. The TrashDash system will keep track of all of the trash you generate and motivate you to create less waste over time by tracking your progress towards goals, providing personalized tips based on your recorded waste, and allowing you to compete against your friends.
+TrashDash is a habit-building Internet of Things product that makes reducing the waste you generate easier and more fun than ever before. TrashDash's central question is: how can we quantify the amount of trash that individuals are generating, and how can we present information about that trash to them in order to help them produce less? The TrashDash system will keep track of all of the trash you generate and motivate you to create less waste over time by tracking your progress towards goals, providing personalized tips based on your recorded waste, and allowing you to compete against your friends.
 
 The TrashDash data science team will create a data pipeline that uses a variety of data collection and machine learning techniques to provide users with a seamless TrashDash experience. New TrashDashers will have two ways to begin implementing the system:
 1. Purchase a state-of-the-art TrashDash garbage can, which includes all of the features needed to collect weight, volume, and photo data of trash contents.
