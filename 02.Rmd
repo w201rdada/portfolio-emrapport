@@ -6,26 +6,30 @@ environment, climate change, app,
 
 ## I want to waste less - kind of
 
-(Start with some statistic about how much trash the average American generates.) Many Americans are aware of this fact and want to generate less waste, but translating that sentiment into action can be hard. It's easy to want to be more environmentally conscious after reading a compelling article about pollution or watching a dramatic documentary about climate change; it's harder to actually make eco-friendly choices while grocery shopping, preparing a family meal, or planning your commute.  
+ According to the Environmental Protection Agency, in 2013, Americans generated 254 million tons of trash. Landfills are a major source of pollution, releasing toxins into air and water that are associated with climate change and other negative environmental impacts. Many Americans are concerned with the environment and want to generate less waste, but translating that sentiment into action can be hard. It is easy to want to be more environmentally conscious after reading a compelling article about pollution or watching a dramatic documentary about climate change; it is harder to actually make eco-friendly
+ choices while grocery shopping, preparing a family meal, or planning your commute.
+
+ Our data science team at TrashDash wants to reduce the environmental impact caused by landfills by helping our potential users reduce the waste they generate. Our strategy is guided by "the three Ms." We help users reduce their environmental footprint by creating a system that is:
+ - Manageable: We want to recommend small changes that can help users lessen the amount of waste they generate.
+ - Measurable: We want to provide users data that helps them track the impact of their changes as they use the product.  
+ - Motivational: We want to connect users to a larger community that encourages them to hit their waste reduction goals and that shows them additional ways to become more aware of their environmental impact.
 
 ## Enter the TrashDash app
 
-TrashDash is a habit-building app that makes reducing the waste you generate more simple and fun than ever before. The TrashDash app will keep track of all of the trash you generate and motivate you to create less waste over time by tracking your progress towards goals, providing personalized tips based on your recorded waste, and allowing you to compete against your friends.
+TrashDash is a habit-building Internet of Things product that makes reducing the waste you generate easier and more fun than ever before. The TrashDash system will keep track of all of the trash you generate and motivate you to create less waste over time by tracking your progress towards goals, providing personalized tips based on your recorded waste, and allowing you to compete against your friends.
 
-The TrashDash data science team will create a data pipeline that uses a variety of data collection and machine learning techniques to provide users with a seamless TrashDash experience. Upon first signing up for the app, new TrashDashers will receive a set of compact sensors to put in their primary trash can. ** research the technology here - can the sensors measure weight and take pictures?
-- uses CNNS to identify what individual trash items are, corroborates with volume data to give you an overall profile of your waste generation   
-- you can take pics of your other trash cans if you want to get really into it
-- app will generate a report of your trash generation, show how you stack up against friends/average users, make suggestions about how you can do better
+The TrashDash data science team will create a data pipeline that uses a variety of data collection and machine learning techniques to provide users with a seamless TrashDash experience. New TrashDashers will have two ways to begin implementing the system:
+1. Purchase a state-of-the-art TrashDash garbage can, which includes all of the features needed to collect weight, volume, and photo data of trash contents.
+2. Sign up to receive the TrashDash starter kit, which includes a compact scale that can be placed at the bottom of a standard kitchen trash bag. Users who opt for this option will need to contribute by taking mobile photos of their trash at periodic intervals.
+
+Both systems will make a user's waste generation _measurable_ by gathering extensive data about users' trash, which will be analyzed and visualized on TrashDash's app. TrashDash will use convolutional neural networks to analyze the photo data that comes in from the TrashDash cans or from user-uploaded images. The CNNs will help identify what types of items make up your trash, and that data will be corroborated with weight data from the TrashDash cans or scales to help generate an overall profile of users' trash. On the app, users will be able to see data about their waste generation and see how their quantities and trash types stack up against TrashDash's average users and their friends on the app.
+
+The app will also make habit changes _manageable_ and _motivational_ for users. The app will make changes manageable for users by providing personalized tips for generating less waste based on the waste categories that are most prevalent in a user's trash. The app will motivate users to form new habits by allowing users to challenge each other to waste-curbing challenges. It will also help users understand the impact they are having as an individual and as part of the TrashDash community by periodically showing statistics about the amount of waste they have kept out of landfills, and providing comparisons that make those statistics comprehensible for their users. Ex: "This month, your TrashDash friend circle prevented 1000 pounds of trash from entering landfills. That's the equivalent of a horse!"
 
 ```{r experimental,echo=F,results='asis',eval=F}
 data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
 ```
 
-
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
-
 ## One man's trash is another man's corporate strategy
 
-Millions of TrashDash users, in aggregate, can make a substantial impact on the amount of trash that the United States produces, but just imagine how much larger that impact might be if major companies got involved. TrashDash could amplify its impact - and provide a useful service to companies of all sizes - by building in ways for corporations to take part in TrashDash.
-- do it as a corporate caring benefit where companies can "match" employee waste savings by saving waste of their own, or making corresponding donations to conservation orgs
-- let companies compete against each other, and the companies that do the best get free advertising to the app's users
+Millions of TrashDash users, in aggregate, can make a substantial impact on the amount of trash that the United States produces, but just imagine how much larger that impact might be if major companies got involved. TrashDash could amplify its impact - and provide a useful service to companies of all sizes - by building in ways for corporations to take part in TrashDash. Companies can participate in TrashDash's corporate challenges to compete against their competitors to see whose business can change its trash-producing habits the most. Companies can also start a "company matching" benefit for employees where employees who change their trash habits using TrashDash can see their savings matched by their employer, in the form of donations to conservation organizations. In exchange for participating in these programs, companies can receive advertising on the TrashDash app. By giving companies a platform to connect with their employees and customers around shared concern for the environment, TrashDash will foster positive, measurable environmental changes using user data.  
