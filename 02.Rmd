@@ -1,5 +1,9 @@
 # Trace Your Waste {#gamify-trash}
 
+#### Abstract {-}
+
+According to the Environmental Protection Agency, in 2013, Americans generated 254 million tons of trash. Many Americans are concerned with the environment and want to generate less waste, but translating that sentiment into action can be hard. Our data science team at TrashDash wants to reduce the environmental impact caused by landfills by helping our potential users reduce the waste they generate. Our product will use Internet of Things devices to measure users' waste generation, categorize their types of waste, and provide ideas and incentives for reducing the amount of trash they create. We believe that by providing visualizations, data analysis, and a community of users who can support and motivate each other, we can help our users waste less.
+
 #### Keywords {-}
 
 environment, climate change, app

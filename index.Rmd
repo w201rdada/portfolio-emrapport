@@ -19,22 +19,18 @@ readLines('https://www.zotero.org/api/users/4664999/collections/KCNAVJ3B/items/t
 # Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
-```
 
 Welcome to my profile! My two big ideas are all about using data science techniques for social impact. Check out my video introduction and my big ideas to learn more.
+
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/1NaMKhASZXGvk2PkTbXxR-faLR5O6_wJv/view')
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VmcjwGGoh50?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Abstract of my first cool idea {-}
+### The Context Behind The Categories in Police Misconduct Complaints: Abstract {-}
 
 In the past few years, police brutality has become part of the national conversation in the United States. The cases that make the news represent only a few of tens of thousands of misconduct complaints brought to police departments every year. Misconduct complaints made to police departments are a rich source of data for understanding patterns in police misconduct. Given that there are widespread variations in how those complaints are classified, even within a given police department, natural language processing can be used to glean insights from the raw text of misconduct complaints. I propose a project that will use Chicago Police Department citizen complaint data to find complaint clusters using natural language processing methods. This work should be useful for journalists and activists who have a vested interest in drawing attention to policing patterns in the interest of creating better police-community relations.
 
-### Abstract of my second cool idea {-}
+### Trace Your Waste: Abstract {-}
 
 According to the Environmental Protection Agency, in 2013, Americans generated 254 million tons of trash. Many Americans are concerned with the environment and want to generate less waste, but translating that sentiment into action can be hard. Our data science team at TrashDash wants to reduce the environmental impact caused by landfills by helping our potential users reduce the waste they generate. Our product will use Internet of Things devices to measure users' waste generation, categorize their types of waste, and provide ideas and incentives for reducing the amount of trash they create. We believe that by providing visualizations, data analysis, and a community of users who can support and motivate each other, we can help our users waste less.
 
