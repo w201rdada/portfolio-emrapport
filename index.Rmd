@@ -23,12 +23,11 @@ readLines('https://www.zotero.org/api/users/4664999/collections/KCNAVJ3B/items/t
 knitr::include_graphics('img/hello-world.png')
 ```
 
-Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
-
+Welcome to my profile! My two big ideas are all about using data science techniques for social impact. Check out my video introduction and my big ideas to learn more.
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
 ```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
+knitr::include_url('https://drive.google.com/file/d/1NaMKhASZXGvk2PkTbXxR-faLR5O6_wJv/view')
 ```
 
 ### Abstract of my first cool idea {-}
@@ -41,6 +40,6 @@ According to the Environmental Protection Agency, in 2013, Americans generated 2
 
 ## About the author {-}
 
-I work as a software developer and data scientist for McMaster-Carr Supply Company, where I use machine learning and natural language processing to improve our website's search engine. I find that my skillset from my English major is incredibly useful, both for conceptualizing natural language processing problems, and for explaining complex machine learning concepts to coworkers of varying technical backgrounds. As I continue to develop my data science skillset, I am eager to apply my skills to human-centric problems and make a positive social impact using machine learning. 
+I work as a software developer and data scientist for McMaster-Carr Supply Company, where I use machine learning and natural language processing to improve our website's search engine. I find that my skillset from my English major is incredibly useful, both for conceptualizing natural language processing problems, and for explaining complex machine learning concepts to coworkers of varying technical backgrounds. As I continue to develop my data science skillset, I am eager to apply my skills to human-centric problems and make a positive social impact using machine learning.
 
 *Updated: `r Sys.Date()`*
